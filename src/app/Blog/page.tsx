@@ -6,13 +6,13 @@ function page() {
             <div className=" bg-[url(/ss.jpg)] bg-cover bg-center text-center py-24 bg-blend-overlay bg-black bg-opacity-25 bg-no-repeat">
                 <h1 className="font-bold text-5xl py-3">Residential</h1>
             </div>
-            <div className="bg-black px-20">
+            <div className="bg-black md:px-20">
                 <div className="justify-center flex  pt-10">
                     <div className="">
                         <img src="./a (1).jpg" alt="" className="" />
                     </div>
                 </div>
-                <div className="mx-16 text-black bg-white p-10">
+                <div className="md:mx-16 text-black bg-white p-10">
                     <h1 className="font-bold text-2xl py-3">Questions You Should Ask Before You Hire Builder</h1>
                     <h1 className="font-bold text-lg py-3">So Let’s Start With The First Question…</h1>
                     <h1 className="font-bold ">1. Are hiring a registered company?</h1>

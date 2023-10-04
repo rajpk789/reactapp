@@ -3,8 +3,8 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import Marquee from "react-fast-marquee";
 export default function Footer() {
     return (
-        <div className='bg-black'>
-            <div className=" bg-orange-300 px-20 grid grid-cols-3 gap-10 py-10">
+        <div className='bg-black flex-wrap'>
+            <div className=" bg-orange-300 md:px-20 grid md:grid-cols-3 gap-10 py-10">
                 <div className=""></div>
                 <div className="">
                     <div className="float-left pe-4 text-5xl">
@@ -20,8 +20,8 @@ export default function Footer() {
                     <button className='py-3 px-5 bg-black text-white border border-black'>Submit -</button>
                 </div>
             </div>
-            <div className="grid  grid-cols-3 gap-10 pb-14  px-20">
-                <div className="p-4 py-10 border-white border -mt-28 bg-black h-min text-white">
+            <div className="grid  md:grid-cols-3 gap-10 pb-14  px-20">
+                <div className="p-4 py-10 border-white border md:-mt-28 bg-black h-min text-white">
                     <h1 className="text-2xl font-bold">Opening Hours</h1>
                     <div className="flex justify-between py-4">
                         <p className="">Mon-Friday</p>
@@ -69,8 +69,8 @@ export default function Footer() {
                     <p className="py-1">Are you hiring a registered <br />company?</p>
                 </div>
             </div>
-            <marquee behavior="" direction=""className="float-left"  /><img src="f.png" alt="" className='w-16' />
-            <marquee behavior="" direction="right" className="float-right" /><img src="f1.png" alt="" className='w-16' />
+            <Marquee direction="left"className="float-left"  ><img src="f.png" alt="" className='w-16' /></Marquee>
+            <Marquee direction="right" className="float-right" ><img src="f1.png" alt="" className='w-16' /></Marquee>
             <hr className="text-white" />
             <div className="py-8 text-white ps-20">Copyright © 2023 RNR BuildTech</div>
         </div>

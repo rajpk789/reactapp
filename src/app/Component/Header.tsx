@@ -42,15 +42,15 @@ const menuItem = [
 
 export default function Home() {
     return (
-        <main className="sticky top-0 bg-white">
-            <header className=" flex justify-between px-20">
-                <div className="my-4 w-28 items-center">
+        <main className="sticky top-0 z-50 bg-sky-400 flex-wrap">
+            <header className=" flex flex-wrap md:justify-center justify-between px-20">
+                <div className="my-4  w-28 items-center">
                     <Link href={"./"}>   <img className="" src="./logo1.jpg" alt="logo" /></Link>
                 </div>
 
-                <nav className="flex items-center font-bold ">
+                <nav className="flex flex-col md:flex-row items-center font-bold">
                     {menuItem.map((item, index) => (
-                        <Link key={index} className="p-6 " href={item.link}>{item.name}</Link>
+                        <Link key={index} className="lg:p-6 md:p-1" href={item.link}>{item.name}</Link>
                     ))}
                 </nav>
             </header>

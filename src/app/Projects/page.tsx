@@ -7,9 +7,9 @@ function page() {
         <h1 className="font-bold text-4xl py-3">Ongoing Projects</h1>
 
       </div>
-      <div className="px-20 bg-black py-28 text-center text-white">
+      <div className="md:px-20 px-5 bg-black py-28 text-center text-white">
         <h1 className="font-bold text-4xl my-10">Mr. Reddy Residence</h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 gap-4">
           <div className="flex overflow-hidden flex-col border border-white">
             <div className="overflow-hidden">
               <img className="hover:scale-125 ease-in-out" src='/c (1).jpg' alt="prod" />

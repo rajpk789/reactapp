@@ -7,8 +7,8 @@ function page() {
                 <h1 className="text-7xl font-bold text-white text-center">About Us</h1>
             </div>
             <div className="bg-black text-white">
-                <div className="px-20">
-                    <div className="grid grid-cols-2 gap-6 py-6">
+                <div className="md:px-20">
+                    <div className="grid md:grid-cols-2 gap-6 py-6">
                         <div className="p-4">
                             <p className="font-bold">ABOUT COMPANY</p>
                             <h1 className="font-bold text-4xl my-3">We Are The Best</h1>
