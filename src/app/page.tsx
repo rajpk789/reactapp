@@ -106,13 +106,13 @@ export default function Home() {
           <p className="">ABOUT PROJECTS</p>
           <h1 className="text-5xl font-bold">Our Recent <span className="text-orange-300 italic"> Portfolio </span></h1>
         </div>
-        <div className="ps-12 pt-32">
+        <div className="ps-12 pt-32"> 
           <ul className="text-white flex md:gap-8">
-            <li className="hover:-translate-y-2 duration-300">ALL</li>
-            <li className="hover:-translate-y-2 duration-300">BUILDINGS</li>
-            <li className="hover:-translate-y-2 duration-300">HOUSES</li>
-            <li className="hover:-translate-y-2 duration-300">INTERIOR</li>
-            <li className="hover:-translate-y-2 duration-300">OFFICES</li>
+            <li className="hover:-translate-y-2 duration-700 cursor-all-scroll">ALL</li>
+            <li className="hover:-translate-y-2 duration-700 cursor-all-scroll">BUILDINGS</li>
+            <li className="hover:-translate-y-2 duration-700 cursor-all-scroll">HOUSES</li>
+            <li className="hover:-translate-y-2 duration-700 cursor-all-scroll">INTERIOR</li>
+            <li className="hover:-translate-y-2 duration-700 cursor-all-scroll">OFFICES</li>
           </ul>
         </div>
       </section>

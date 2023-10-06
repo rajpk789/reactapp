@@ -16,7 +16,6 @@ function page() {
                             <li className="font-bold py-4 bg-white my-2 text-black w-full  ps-6"><a href="/">Commercial</a></li>
                             <li className="font-bold py-4 bg-white my-2 text-black  w-full ps-6" ><a href="/">Turnkey Project</a></li>
                             <li className="font-bold py-4 bg-white my-2 text-black  w-full ps-6"><a href="/">Architectural Designs</a></li>
-
                             <div className='mt-10 border p-5' >
                                 <h3 className='font-bold text-xl py-2'>Our Office Location</h3>
                                 <p className=''>Attiguppe,Vijay
